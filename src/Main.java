@@ -25,6 +25,7 @@ public class Main {
 
         //Check Balance
         System.out.println("Your Current Account Balance is:"+user.checkBalance());
+        System.out.println("Your Current Account Balance is:"+user.calculateInterest(20));
 
     }
 }
